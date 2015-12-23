@@ -50,11 +50,8 @@ div#main {
 }
 
 div#container{
-	min-width: 960px;
-	max-width: 1600px;
+	width: 1220px;
 	text-align: left;
-	width: auto;
-	padding: 0 10px;
 	margin: 0 auto;
 	height:auto;
 	min-height:100%;
@@ -64,9 +61,10 @@ div#wrapper {
 	overflow: auto;
 	margin: 15px 10px;
 	padding-bottom:70px;
+	width: 1200px;
 }
 div#sidebar {
-	width: 455px;
+	width: 340px;
 	top: 140px;
 	right: 10px;
 	float: right;
@@ -195,8 +193,7 @@ ul#menu li#rss a:hover {
 }
 div.post {
 	margin-bottom: 30px;
-    	min-width: 500px;
-   	max-width: 1090px;
+    width: 850px;
 	float: left;
 }
 div.post h2 {
@@ -569,14 +566,6 @@ div#sidebar h2 {
 	color: #333;
 	text-align: center;
 	border-bottom: 3px solid #ddd
-}
-div#sidebar div#sideRight {
-	float: right;
-	width: 48%
-}
-div#sidebar div#sideLeft {
-	float: left;
-	width: 48%
 }
 div#sidebar div#sideLeft h2, div#sidebar div#sideRight h2 {
 	background-color: #47505f;
