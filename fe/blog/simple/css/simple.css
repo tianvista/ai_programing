@@ -711,11 +711,7 @@ div#sidebar div ul li a.mini_rss:hover {
 	text-align: center
 }
 .lb_search {
-	background-image: url(../images/icon_search.gif);
-	background-position: 0 0;
-	background-repeat: no-repeat;
 	text-indent: -9000em;
-	padding: 2px 0 10px 25px;
 	height: 14px
 }
 #mySearch input.keyword {
