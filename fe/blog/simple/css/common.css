@@ -1257,9 +1257,6 @@ input::-moz-focus-inner {
 	margin-right: auto;
 	text-align: center
 }
-#cnblogs_post_body {
-	word-break: break-word
-}
 #cnblogs_post_body p {
 	margin: 10px auto;
 	text-indent: 0
