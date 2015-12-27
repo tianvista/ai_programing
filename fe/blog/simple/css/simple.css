@@ -50,7 +50,7 @@ div#main {
 }
 
 div#container{
-	width: 1220px;
+	width: 1200px;
 	text-align: left;
 	margin: 0 auto;
 	height:auto;
@@ -61,10 +61,10 @@ div#wrapper {
 	overflow: auto;
 	margin: 15px 10px;
 	padding-bottom:70px;
-	width: 1200px;
+	width: 1180px;
 }
 div#sidebar {
-	width: 340px;
+	width: 320px;
 	top: 140px;
 	right: 10px;
 	float: right;
