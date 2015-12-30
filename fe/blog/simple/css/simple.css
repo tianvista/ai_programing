@@ -590,7 +590,7 @@ div#sidebar div#about img.photo {
 div#sidebar div#about a {
 	text-decoration: underline
 }
-div#sidebar div#about div {
+div#sidebar div#about {
 	padding: 0px 5px 5px 5px;
 }
 div#sidebar div#sideLeft ul li, div#sidebar div#sideRight ul li {
@@ -845,4 +845,181 @@ div#sidebar div ul.side_ing_list span.ing_date {
 }
 #BlogPostCategory {
 	margin-bottom: 0
+}
+
+h1,h2,h3,h4,h5,h6,hr,input,li,nav,ol,p,ul {
+	margin: 0;
+	padding: 0;
+	font-weight: 400
+}
+.side-profile-info {
+	padding: 15px 0 5px
+}
+
+.side-profile-avatar {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border: 1px solid #e8e8e8;
+	padding: 2px;
+	border-radius: 50px;
+	width: 60px;
+	height: 60px
+}
+
+.side-profile-pic {
+	display: block;
+	border-radius: 50px;
+	overflow: hidden
+}
+
+.side-profile-name {
+	text-align: center
+}
+
+.side-profile-name a {
+	max-width: 170px;
+	vertical-align: middle;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: normal
+}
+
+.profile-count-box {
+	padding: 10px 2px;
+	color: #999;
+	text-align: center
+}
+
+.profile-count-box a {
+	font-weight: 700;
+	margin: 0 3px
+}
+
+
+.pc-pipe {
+	margin: 0 2px
+}
+
+.side-profile-box{
+	margin: 0;
+	border: none
+}
+
+.profile-count-box {
+	padding: 0 20px 8px;
+	border-bottom: 1px dashed #e1e1e1
+}
+
+.profile-count {
+	margin-right: -26px
+}
+
+.profile-count li {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.profile-count i {
+	display: inline-block;
+	width: 21px;
+	height: 16px;
+	vertical-align: text-bottom;
+	margin-right: 5px
+}
+
+.profile-count .ico-pcity {
+	background-position: 0 0
+}
+
+.profile-count .ico-pwork {
+	background-position: 0 -35px
+}
+
+.profile-count .ico-pedu {
+	background-position: 0 -67px
+}
+
+.profile-city,.profile-work {
+	max-width: 100px
+}
+
+.profile-edu {
+	max-width: 200px
+}
+
+.profile-achieve {
+	padding: 15px 0;
+	border-bottom: 1px solid #c2c2c2;
+	display: table;
+	table-layout: fixed;
+	width: 100%
+}
+
+.achieve-item {
+	display: table-cell;
+	text-align: center;
+	white-space: nowrap
+}
+
+
+
+.web-statistics {
+	background: #f7f7f7;
+	padding: 10px;
+	text-align: center
+}
+
+.web-statistics li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.web-statistics li+li {
+	margin-left: 20px
+}
+
+
+
+
+.nk-bar .empty-topic-letter,.nk-bar .empty-topic-pic {
+	float: none;
+	text-align: center;
+	padding: 0;
+	font-size: 16px;
+	color: #666
+}
+.profile-page .module-body {
+	padding: 15px 10px 20px
+}
+.profile-page .nk-content {
+	margin: 0
+}
+
+.profile-page .side-profile-pic {
+	width: 100px;
+	height: 100px
+}
+
+.profile-page .side-profile-avatar {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	position: relative
+}
+
+.profile-page .pc-pipe {
+	margin: 0 12px
+}
+
+.profile-page .profile-count-box {
+	color: #585858
 }

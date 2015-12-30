@@ -7,7 +7,7 @@
     <link href="../../css/bootstrap.min.css" rel="stylesheet">  
     <link id="MainCss"type="text/css"rel="stylesheet"href="css/foot.css"/>
     <link type="text/css"rel="stylesheet"href="css/common.css"/>
-    <link id="MainCss"type="text/css"rel="stylesheet"href="css/simple.css"/> 
+    <link id="MainCss"type="text/css"rel="stylesheet"href="css/simple.css"/>
 <body>
     <div id = "main">
         <div id="container">
@@ -70,16 +70,56 @@
                 </div>
                 <div id="sidebar">
                     <div id="about">
-                        <div>
-                            <h2 id="about_title">关于</h2>
-                            <div id="about_body">
-                                <div id="profile_block">昵称：<a href="http://home.cnblogs.com/u/WJ5888/">Code研究者</a><br>园龄：<a href="http://home.cnblogs.com/u/WJ5888/" title="入园时间：2012-11-22">3年1个月</a><br>粉丝：<a href="http://home.cnblogs.com/u/WJ5888/followers/">20</a><br>关注：<a href="http://home.cnblogs.com/u/WJ5888/followees/">0</a><div id="p_b_follow"></div></div>
+                        <div class="profile-page">
+                            <div class="nk-bar">
+                                <div class="module-box side-profile-box">
+                                    <div class="side-profile-info">
+                                        <div class="side-profile-avatar">
+                                            <div class="side-profile-pic">
+                                                <img src="http://images.nowcoder.com/images/20151114/565478_1447515463070_7C2C60506876716CCF0E706DB13D4511@0e_200w_200h_0c_1i_1o_90Q_1x" height="100" width="100" id="avatarImage">
+                                            </div>
+                                        </div>
+                                        <h3 class="side-profile-name level-color-4">
+                                            Code研究者
+                                        </h3>
+                                    </div>
+                                    <div class="profile-count-box">
+                                        <span class="pc-item">关注了 </span>
+                                        <span id="following-count">0</span>
+                                        <span class="pc-pipe">|</span>
+                                        <span class="pc-item">关注者 </span>
+                                        <span id="followers-count">0</span>
+                                    </div>
+                                    <div class="profile-achieve">
+                                        <span class="achieve-item">等级：专家</span>
+                                        <span class="achieve-item">积分：2</span>
+                                        <span class="achieve-item">访问数：2</span>
+                                    </div>
+                                    <ul class="web-statistics">
+                                        <li>
+                                            <p>积分</p>
+                                            <p class="ws-num">100000</p>
+                                        </li>
+                                        <li>
+                                            <p>获赞数</p>
+                                            <p class="ws-num">10000</p>
+                                        </li>
+                                        <li>
+                                            <p>评论数</p>
+                                            <p class="ws-num">2000</p>
+                                        </li>
+                                        <li>
+                                            <p>访问数</p>
+                                            <p class="ws-num">100000000</p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                    </div>                    
+                        </div>    
+                    </div>               
                     <div id="mySearchWrapper">
                         <div id="mySearch">
-                            <input type="image"src="http://www.cnblogs.com/skins/Minyx2_Lite/images/btnsearch.gif"id="btnZzk"class="submit"onclick="zzk_go();return false;"/>
+                                <input type="image"src="http://www.cnblogs.com/skins/Minyx2_Lite/images/btnsearch.gif"id="btnZzk"class="submit"onclick="zzk_go();return false;"/>
                             <span class="lb_search">
                                 <input type="text"id="q"onkeydown="return zzk_go_enter(event);"class="keyword"/>
                             </span>
